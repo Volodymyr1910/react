@@ -1,8 +1,8 @@
 //*  імпорти розташовані до функцій
 
 import './App.css'
-import HomeWork_01 from '../src/homeworks/hw_1/HomeWork_01'
-import Lesson01 from './lessons/lesson_01/Lesson01'
+import ProfilCardforHW from './components/profilCardforHW/profilCardforHW'
+import ProfileCard from './components/profileCard/ProfileCard'
 import Lesson_02 from './lessons/lesson_02/Lesson_02'
 
 
@@ -18,7 +18,9 @@ function App() {
       {/* <Lesson01/> */}
       {/* <h1>Hello, React ⚡</h1> */}
       {/* <HomeWork_01/> */}
-      <Lesson_02/>
+      {/* <Lesson_02/> */}
+      {/* <ProfileCard /> */}
+      <ProfilCardforHW/>
     </>
   )
 }
