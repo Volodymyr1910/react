@@ -1,7 +1,7 @@
 import "./MyButton.css"
 
 // пример отдельного компонента кнопки.
-function MyButton () {
-    return  <button className="myButton">Click me!</button>;
+function MyButton ({functionForButton, text}) {
+    return  <button onClick={functionForButton} className="myButton">{text}</button>;
 }
 export default MyButton;

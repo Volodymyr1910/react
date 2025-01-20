@@ -1,9 +1,17 @@
 //*  імпорти розташовані до функцій
 
 import './App.css'
-import ProfilCardforHW from './components/profilCardforHW/profilCardforHW'
-import ProfileCard from './components/profileCard/ProfileCard'
-import Lesson_02 from './lessons/lesson_02/Lesson_02'
+import HomeWork_3_v2 from './homeworks/hw_3_v2/HomeWork_3_v2'
+// import FunctionForButton from './components/functionForButton/functionForButton'
+// import HomeWork_03 from './homeworks/hw_3/HomeWork_03'
+// import HomeWork_03 from './homeworks/hw_3/HomeWork_03'
+
+// import Lesson_03 from './lessons/lesson_03/Lesson_03'
+// import MyButton from './components/myButton/MyButton'
+// import ProfilCardforHW from './components/profilCardforHW/profilCardforHW'
+// import ProfileCard from './components/profileCard/ProfileCard'
+// import Lesson_02 from './lessons/lesson_02/Lesson_02'
+
 
 
 //*  оголошення функції з компонента Арр (функція має те саме ім'я як і назва компонента). Компонент називається з великої літери і має розширення jsx
@@ -20,10 +28,17 @@ function App() {
       {/* <HomeWork_01/> */}
       {/* <Lesson_02/> */}
       {/* <ProfileCard /> */}
-      <ProfilCardforHW/>
+      {/* <ProfilCardforHW/> */}
+      {/* <Lesson_03/> */}
+      {/* <HomeWork_03/> */}
+      {/* <FunctionForButton/> */}
+      {/* <HomeWork_03/> */}
+      <HomeWork_3_v2/>
+    
     </>
   )
 }
 
 //* експорт потрібен для використання цього компонента в інших місцях react
 export default App
+
