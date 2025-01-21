@@ -13,6 +13,7 @@ function handleQuantity (isLike){
 function handleReset (){
     setQuantity_of_likes(0);
     setQuantity_of_dislikes(0);
+    alert("Set to zero.")
 }
 
   return (
