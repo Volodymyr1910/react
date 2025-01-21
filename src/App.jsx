@@ -1,7 +1,9 @@
 //*  імпорти розташовані до функцій
 
 import './App.css'
-import HomeWork_3_v2 from './homeworks/hw_3_v2/HomeWork_3_v2'
+import HomeWork_4 from './homeworks/hw_4/HomeWork_4'
+// import HomeWork_3_v2 from './homeworks/hw_3_v2/HomeWork_3_v2'
+// import Lesson_04 from './lessons/lesson_04/Lesson_04'
 // import FunctionForButton from './components/functionForButton/functionForButton'
 // import HomeWork_03 from './homeworks/hw_3/HomeWork_03'
 // import HomeWork_03 from './homeworks/hw_3/HomeWork_03'
@@ -33,8 +35,9 @@ function App() {
       {/* <HomeWork_03/> */}
       {/* <FunctionForButton/> */}
       {/* <HomeWork_03/> */}
-      <HomeWork_3_v2/>
-    
+      {/* <HomeWork_3_v2/> */}
+      {/* <Lesson_04/> */}
+      <HomeWork_4/>
     </>
   )
 }

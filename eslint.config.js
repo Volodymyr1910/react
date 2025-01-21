@@ -30,6 +30,7 @@ export default [
       ...reactHooks.configs.recommended.rules,
       'no-unused-vars': 'off',
       'react/jsx-no-target-blank': 'off',
+      'react/prop-types':'off', // добавили чтоб eslint не смотрел на типы props
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },

@@ -11,6 +11,7 @@ function LoginForm() {
   return (
     <form className="form" onSubmit={handleSubmit} action="">
       <MyInput
+        className="input"
         name={"login"}
         type={"text"}
         placeholder={"login"}
@@ -18,12 +19,14 @@ function LoginForm() {
         require={true}
       />
       <MyInput
+        className="input"
         name={"email"}
         type={"email"}
         placeholder={"email"}
         label={"Your email: "}
       />
       <MyInput
+        className="input"
         name={"password"}
         type={"password"}
         placeholder={"password"}
