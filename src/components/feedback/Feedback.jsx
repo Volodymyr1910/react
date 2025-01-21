@@ -7,7 +7,7 @@ const [quantity_of_likes, setQuantity_of_likes] = useState(0);
 const [quantity_of_dislikes, setQuantity_of_dislikes] = useState(0);
 
 function handleQuantity (isLike){
-{isLike ? (setQuantity_of_likes(quantity_of_likes + 1)) :setQuantity_of_dislikes(quantity_of_dislikes - 1)};
+{isLike ? (setQuantity_of_likes(quantity_of_likes + 1)) :setQuantity_of_dislikes(quantity_of_dislikes + 1)};
 }
 
 function handleReset (){
