@@ -5,7 +5,7 @@ function MyInput({ name, type, placeholder, label, require }) {
         <label >{label}</label>
       </div>
       <div>
-        {require === true ? (<input className="input" name={name} type={type} placeholder={placeholder} required/>) : (<input name={name} type={type} placeholder={placeholder}/>)} 
+        {require === true ? (<input className="input" name={name} type={type} placeholder={placeholder} required/>) : (<input className="input" name={name} type={type} placeholder={placeholder}/>)} 
       </div>
     </div>
   );

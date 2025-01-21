@@ -1,24 +1,37 @@
 import Button from "../button/Button";
 import MyInput from "../myInput/MyInput";
-import ".//LoginForm.css"
+import ".//LoginForm.css";
 
-function LoginForm (){
+function LoginForm() {
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert("Cool!");
+  }
 
-    function handleSubmit(event) {
-        event.preventDefault();
-        alert("Cool!");
-      }
-
-return(
-   
+  return (
     <form className="form" onSubmit={handleSubmit} action="">
-    <MyInput name={"login"} type={"text"} placeholder={"login"} label={"Login: "} require={true}/>
-<MyInput name={"email"} type={"email"} placeholder={"email"} label={"Your email: "}/>
-<MyInput name={"password"} type={"password"} placeholder={"password"} label={"Password: "}/>
+      <MyInput
+        name={"login"}
+        type={"text"}
+        placeholder={"login"}
+        label={"Login: "}
+        require={true}
+      />
+      <MyInput
+        name={"email"}
+        type={"email"}
+        placeholder={"email"}
+        label={"Your email: "}
+      />
+      <MyInput
+        name={"password"}
+        type={"password"}
+        placeholder={"password"}
+        label={"Password: "}
+      />
 
-<Button className="submitButton" text="Finish" type="submit"/>
-</form>
-
-);
+      <Button className="submitButton" text="Finish" type="submit" />
+    </form>
+  );
 }
-export default LoginForm
+export default LoginForm;

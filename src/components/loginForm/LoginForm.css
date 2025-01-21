@@ -6,6 +6,7 @@
     background-color: rgb(142, 142, 148);
     gap: 10px;
     padding: 5px;
+    color:rgb(245, 245, 248)
 }
 
 .input{
@@ -17,7 +18,8 @@ padding: 3px;
 }
 
 
-.submitButton {
-margin-top: 20px;
+.submitButton{
+margin-top: 50px;
 color: brown;
+background-color: black;
 }
