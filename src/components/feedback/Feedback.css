@@ -21,13 +21,28 @@
 .hw_04_like {
     background-color: green;
 }
+.hw_04_like:hover {
+    background-color: rgba(10, 97, 10, 0.959);
+    border: 3px solid  rgb(231, 230, 233);
+    color: rgb(12, 12, 12);
+}
 
 .hw_04_dislike {
     background-color: rgba(255, 0, 0, 0.664);
 }
+.hw_04_dislike:hover {
+    background-color: rgba(180, 10, 10, 0.664);
+    border: 3px solid  rgb(231, 230, 233);
+    color: rgb(12, 12, 12);
+}
 
 .hw_04_reset {
     background-color: orange;
+}
+.hw_04_reset:hover {
+    background-color: rgb(206, 138, 13);
+    border: 3px solid  rgb(231, 230, 233);
+    color: rgb(12, 12, 12);
 }
 
 .hw_04_container {
