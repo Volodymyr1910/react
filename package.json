@@ -8,9 +8,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    
     "start": "npm run dev",
     "deploy": "vite build && gh-pages -d dist",
-   "lazy": "git add . && git commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\" && git push origin main"
+   "lazy": "git add . && git commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\" && git push origin main",
+   "all": "git add . && git commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\" && git push origin main vite build && gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
