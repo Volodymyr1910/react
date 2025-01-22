@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "start": "npm run dev",
     "deploy": "vite build && gh-pages -d dist",
-   "lazy": "git add . && git commit -m 'lazy' && git push"
+   "lazy": "git add . && git commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\" && git push origin main"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",

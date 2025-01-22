@@ -1,18 +1,19 @@
 //*  імпорти розташовані до функцій
 
 import './App.css'
-import HomeWork_4 from './homeworks/hw_4/HomeWork_4'
+// import HomeWork_4 from './homeworks/hw_4/HomeWork_4'
 // import HomeWork_3_v2 from './homeworks/hw_3_v2/HomeWork_3_v2'
+// import Lesson_05 from './lessons/lesson_05/Lesson_05'
 // import Lesson_04 from './lessons/lesson_04/Lesson_04'
 // import FunctionForButton from './components/functionForButton/functionForButton'
 // import HomeWork_03 from './homeworks/hw_3/HomeWork_03'
 // import HomeWork_03 from './homeworks/hw_3/HomeWork_03'
-
 // import Lesson_03 from './lessons/lesson_03/Lesson_03'
 // import MyButton from './components/myButton/MyButton'
 // import ProfilCardforHW from './components/profilCardforHW/profilCardforHW'
 // import ProfileCard from './components/profileCard/ProfileCard'
 // import Lesson_02 from './lessons/lesson_02/Lesson_02'
+import HomeWork_05 from './homeworks/hw_5/HomeWork_05'
 
 
 
@@ -37,7 +38,9 @@ function App() {
       {/* <HomeWork_03/> */}
       {/* <HomeWork_3_v2/> */}
       {/* <Lesson_04/> */}
-      <HomeWork_4/>
+      {/* <HomeWork_4/> */}
+      {/* <Lesson_05/> */}
+      <HomeWork_05/>
     </>
   )
 }
