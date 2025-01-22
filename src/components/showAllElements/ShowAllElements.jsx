@@ -17,7 +17,7 @@ export default function ShowAllElements({ array, uniqueKey }) {
                   <div className="showAllElements_item_img_container" key={key}>
                     <img src={element[key]} alt="image" />
                   </div>
-                ) : (
+                ) : key === "name"? (<h3 key={key}>{`${key}: ${element[key]}`}</h3>) : (
                   <p key={key}>{`${key}: ${element[key]}`}</p>
                 )
               )}
